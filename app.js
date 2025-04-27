@@ -1,11 +1,11 @@
-const express = require("express");
-const app = express();
+// eslint-disable-next-line
+const express = require('express')
+const app = express()
 
 // get the port from env variable
-const PORT = process.env.PORT || 5000;
+// eslint-disable-next-line
+const PORT = process.env.PORT || 5000
 
-app.use(express.static("dist"));
+app.use(express.static('dist'))
 
-app.listen(PORT, () => {
-  console.log(`server started on port ${PORT}`);
-});
+app.listen(PORT, () => {})
